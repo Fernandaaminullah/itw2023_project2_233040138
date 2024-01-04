@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+
+
+/* banner start */
+.banner {
+    height: 100vh;
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+}
+
+.banner-content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.banner-content h2 {
+    font-size: 7vh;
+}
+/* banner end */
+
+
+/* about start */
+
+.about {
+    background-color: black;
+    color: white;
+}
+
+.about-content {
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+.about h4 {
+    background-color: #101010;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.about-p {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+
+
+
+
+/* about end */
+
+
+/* new start */
+.new {
+    background-color: #101010;
+}
+
+.new-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.new-content .new-img {
+   flex-direction: row;
+   padding: 10px;
+   border: 5px solid black;
+   border-radius: 20px;
+}
+ 
+.new-content .paragraf {
+    font-size: 20px;
+}
+/* new end */
+
+
+/* product start */
+.product {
+ background-image: url(../img/bg.jpg);
+}
+
+.product-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 20px solid black;
+    padding: 8vh;
+}
+
+.product h2 {
+    background-color: black;
+    padding: 20px;
+    border: 5px solid #151515;
+    border-radius: 50px;
+}
+
+.product-content .product-img {
+    flex-direction: row;
+   padding: 10px;
+   border: 5px solid black;
+   border-radius: 20px;
+}
+/* prodact end */
+
+
+/* contact start */
+.contact {
+    background-color: black;
+    color: white;
+}
+/* contact end */
+
+
+/* button and icons */
+.btn {
+    height: 8vh;
+}
+
+i {
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
